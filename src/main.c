@@ -6,11 +6,11 @@
 /*   By: csauron <csauron@students.42.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 01:16:42 by csauron           #+#    #+#             */
-/*   Updated: 2024/10/14 02:14:09 by csauron          ###   ########.fr       */
+/*   Updated: 2024/10/21 06:20:45 by sauron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minishell.h"
+#include "deps/minishell.h"
 
 static char		*parse_env_var(char *str, int pos)
 {
